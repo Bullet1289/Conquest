@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__link {
+  margin: 0;
+  padding: 0;
+  width: 410px;
+  justify-content: space-between;
+  display: flex;
+  list-style-type: none;
+}
+.navbar__link a {
+  line-height: 26px;
+  text-decoration: none;
+  color: gray;
+}
+.navbar__icons {
+  text-decoration: none;
+}
+.navbar__icons a {
+  margin-left: 15px;
+}
+
+.banner {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.banner__text {
+  margin-left: 80px;
+  margin-top: 230px;
+}
+.banner__text-line {
+  display: flex;
+  line-height: 62px;
+}
+.banner__text-line span {
+  position: absolute;
+  left: 40px;
+  font-size: 35px;
+}
+.banner__text h2 {
+  font-size: 35px;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+.banner__text p {
+  margin: 20px 0;
+  color: gray;
+  width: 260px;
+  font-size: 16px;
+}
+.banner__text-button {
+  margin-top: 50px;
+  padding: 27px 38px;
+  font-size: 12px;
+  border: none;
+  color: white;
+  background: #444240;
+}
+.banner__text-button:hover {
+  background-color: #353332;
+}
+.banner h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+.banner__img-watch {
+  position: relative;
+}
+.banner__img-price {
+  position: absolute;
+  font-size: 20px;
+  right: 450px;
+  top: 140px;
+  font-family: "Playfair Display", serif;
+}
+.banner__img-size {
+  position: absolute;
+  right: -40px;
+  font-size: 20px;
+  bottom: 160px;
+  font-family: "Playfair Display", serif;
+}
+
+.banner {
+  background-image: url("../img/Ellipse.jpg");
+  background-position: 55% 10%;
+  background-repeat: no-repeat;
+}
+
+.watches__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+
+.watches__text {
+  text-align: right;
+  font-size: 20px;
+}
+.watches__text p {
+  margin: 0;
+  padding: 0;
+}
+.watches__text hr {
+  margin: 5px;
+  text-align: right;
+  display: inline-block;
+}
+
+.watches__card {
+  display: flex;
+  justify-content: space-between;
+}
+.watches__card li {
+  text-decoration: none;
+  list-style-type: none;
+  text-align: left;
+  width: 300px;
+}
+
+.bottom-text {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+}
+
+.slider {
+  padding-top: 52px;
+  display: flex;
+  height: 500px;
+  background-image: url("../img/background_banner_1.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.slider__text-title {
+  font-size: 40px;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+.slider__text {
+  background-color: #FDFDFB;
+  margin: 0 auto;
+  color: gray;
+  font-size: 20px;
+  width: 390px;
+}
+.slider__text-button {
+  margin-top: 40px;
+  padding: 27px 38px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background: #D4B098;
+}
+.slider__text-button:hover {
+  background: #aa8d7a;
+}
+.slider__img {
+  margin-left: 40px;
+}
+.slider__bottom-text {
+  font-family: "Prata";
+  font-size: 12px;
+  color: rgba(27, 26, 23, 0.82);
+  position: relative;
+  top: 91%;
+  height: 0;
+}
+
+.about {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.about__title {
+  font-size: 35px;
+  font-weight: 200;
+  font-family: "Playfair Display", serif;
+}
+.about__text {
+  margin: auto 0;
+}
+.about__text p {
+  color: gray;
+  font-size: 20px;
+  width: 400px;
+}
+.about__text a {
+  text-decoration: none;
+  color: black;
+}
+.about__icons {
+  margin-top: 100px;
+}
+.about__icons a {
+  margin-right: 15px;
+}
+.about__img {
+  display: flex;
+  justify-content: space-between;
+  width: 630px;
+}
+
+.footer {
+  background-color: #444240;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  padding: 40px 100px;
+  font-family: roboto;
+}
+.footer__contacts-link {
+  padding: 0;
+  list-style-type: none;
+}
+.footer__contacts-link a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  opacity: 0.6;
+}
+.footer__info {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+.footer__info-link {
+  margin-left: 50px;
+  padding: 0;
+  list-style: none;
+}
+
+.bigWord {
+  margin-bottom: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.defaultWord {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  opacity: 0.6;
+}/*# sourceMappingURL=style.css.map */
